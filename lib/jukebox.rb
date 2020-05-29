@@ -99,7 +99,7 @@ def run(my_songs)
       help()
       input = prompt()
     else input
-      puts "I accept the following commands:"
+      puts /Please enter a command:/
       help()
       input = prompt()
     end

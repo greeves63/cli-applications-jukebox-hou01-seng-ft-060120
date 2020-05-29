@@ -98,8 +98,8 @@ def run(my_songs)
     elsif input == "help"
       help()
       input = prompt()
-    else input == "exit"
-      puts "Invalid command"
+    else input
+      puts "I accept the following commands:"
       help()
       input = prompt()
     end
